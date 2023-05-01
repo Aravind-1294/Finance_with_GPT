@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Warren Mowa</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+  </head>
+  <body>
+    <img id="logo" src="/static/images/logo.png" alt="FinGPT">
+
+    <form action="/search" method="GET">
+      <input type="text" id="query" name="query" value="{{ query }}" placeholder="Ask Mr.Buffet">
+      <input type="submit" value="search">
+    </form> 
+    <div id="results">
+    <img src="/static/images/a.jpg" class="img" alt="Image description">
+    <h1 class="head">Mr. Buffet's Answer</h1>
+    <p>"{{ results }}"</p>
+    </div>
+  </body>
+</html>
