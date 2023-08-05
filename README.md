@@ -64,7 +64,7 @@ pip install -r requirements.txt
 4. Run the chatbot:
 
 ```python
-python chatbot.py
+python app.py
 ```
 
 ## Usage
