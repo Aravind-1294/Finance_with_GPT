@@ -1,0 +1,7 @@
+Flask
+openai
+openai.embeddings_utils
+pandas
+numpy
+config
+youtubr-dl
